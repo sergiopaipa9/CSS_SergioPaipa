@@ -1,0 +1,24 @@
+body{
+  background: black;
+}
+
+
+header{
+  background-color: #5b7989;
+  text-align: left;
+  color:white;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+}
+
+.enlaces {
+  text-decoration: none;
+  color: white;
+}
+
+.imagencentral{
+  text-align: center;
+  background: #82c3a6;
+}
