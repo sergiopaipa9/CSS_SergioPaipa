@@ -1,13 +1,64 @@
+
 body{
   background: black;
+  font-family: 'Dancing Script';
+}
+
+.column {
+  display: flex;
+  background-color: #d5c75f;
+  padding: 70px;
+  border: 1px;
+}
+
+.column1 {
+  display: flex;
+  background-color: #d5c75f;
+  padding: 70px;
+  border: 1px;
+}
+
+.row1 {
+  display: flex;
+  width: 20%;
+}
+
+img {
+  box-shadow: 2px 2px 2px 2px #02010a;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  text-align: left;
+}
+
+.columna1{
+  display: block;
+  background-color: #82c3a6;
+  text-align: center;
+  padding: 60px;
+}
+
+.left:hover{
+  transform: rotate(10deg);
+  box-sizing: #82c3a6;
+  border: 2px;
+}
+
+.right:hover{
+  transform: translate3d(20px,-5px,0px);
 }
 
 
 header{
   background-color: #5b7989;
-  text-align: left;
-  color:white;
+  text-align: right;
   text-shadow: 2px 2px 2px #02010a;
+  color:white;
   border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
@@ -18,7 +69,71 @@ header{
   color: white;
 }
 
-.imagencentral{
+
+
+#contenido{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
   text-align: center;
-  background: #82c3a6;
+  background-color: #d5c75f;
+  flex: 1;
+  border: 1px;
+}
+
+footer{
+  background-color: #C6d5c5;
+}
+
+.flex-container > div {
+  background-color: #C6d5c5;
+  text-align: left;
+  justify-content: center;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  background-color: #C6d5c5;
+}
+
+.imgclass {
+margin: 20px;
+
+}
+
+
+@media screen and (max-width: 900px){
+
+  .ImagenCentral
+  {
+  width: 100%;
+  }
+  .right
+  {
+  width: 50%;
+  }
+  .left
+  {
+  width: 50%;
+  }
+}
+
+
+@media (min-width: 900px){
+
+  .ImagenCentral
+  {
+  width: 100%;
+  }
+  .right
+  {
+  width: 100%;
+  }
+  .left
+  {
+  width: 100%;
+  }
 }
